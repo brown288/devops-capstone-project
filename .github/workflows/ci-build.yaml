@@ -42,6 +42,6 @@ jobs:
       - name: Run unit tests with nose
         run: nosetests
         env: 
-          DATABASE_URI: ${{ secrets.POSTGRES_DB }}
+          DATABASE_URI: ${{ secrets.DATABASE_URI }}
 
 
